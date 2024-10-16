@@ -1,21 +1,14 @@
-class main:
-    def __init__(self, n, o):
-        self.name = n
-        self.occupation = o
+# This is a simple Python program
 
-    def do_work(self):
-        if self.occupation == "tennis player":
-            print(self.name, "plays tennis")
-        elif self.occupation == "actor":
-            print(self.name, "shoots film")
+# Print a greeting message
+print("Hello, World!")
 
-    def speaks(self):
-        print(self.name, "says how are you?")
+# Define two numbers
+a = 5
+b = 3
 
-tom = Human("tom cruise","actor")
-tom.do_work()
-tom.speaks()
+# Add the two numbers
+sum = a + b
 
-maria = Human("maria sharapova","tennis player")
-maria.do_work()
-maria.speaks()
+# Print the result
+print("The sum of", a, "and", b, "is", sum)
